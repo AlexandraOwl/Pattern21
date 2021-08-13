@@ -3,6 +3,8 @@
 
 name: Java CI with Gradle
 
+java -jar app-ibank.jar -P:profile=test
+
 on:
   push:
     branches: [ master ]
